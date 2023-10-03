@@ -1,0 +1,42 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.2",
+    "@supabase/supabase-js": "^1.1.2",
+    "babel-plugin-inline-dotenv": "^1.6.0",
+    "expo": "~39.0.2",
+    "expo-status-bar": "~1.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "react-native-appearance": "~0.3.3",
+    "react-native-elements": "^3.4.2",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-url-polyfill": "^1.2.0",
+    "react-native-web": "~0.13.12",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "@babel/core": "~7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-dom": "~16.9.8",
+    "@types/react-native": "~0.63.2",
+    "reactotron-react-native": "^5.0.0",
+    "typescript": "~3.9.5"
+  },
+  "private": true,
+  "keywords": [],
+  "name": "todo-list-expo-forked",
+  "description": null,
+  "version": "0.0.0"
+}
